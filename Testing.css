@@ -1,0 +1,71 @@
+button {
+  background-color: silver;
+  height: 50px;
+  width: 100px;
+  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+img.mid {
+  height: 400px;
+  align-self: center;
+  border: skyblue 10px solid;
+}
+img.button {
+  height: 85px;
+  margin-left: 59px;
+  margin-right: 59px;
+  margin-top: 30px;
+  border: none;
+}
+input.grid {
+  max-height: 75px;
+  max-width: 100%;
+}
+input.gridLit {
+  max-height: 75px;
+  max-width: 100%;
+  border: sandybrown 5px solid;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  size: 50px;
+}
+.images {
+  margin-bottom: 20px;
+  align-self: center;
+}
+.selection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: paleturquoise 5px solid;
+  width: 50%;
+  max-height: 80px;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+}
+.grid-item {
+  max-width: 100px;
+  align-items: center;
+  justify-items: center;
+  border: powderblue 2px solid;
+}
+input.lil {
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
