@@ -38,7 +38,7 @@ function prevImg() {
   }
   document.getElementById("prevArrow").style.display = "none";
   document.getElementById("Pl").style.display = "block";
-  var delayInMilliseconds = 300; //1 second
+  var delayInMilliseconds = 200; //1 second
   setTimeout(function () {
     document.getElementById("prevArrow").style.display = "block";
   }, delayInMilliseconds);
