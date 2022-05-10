@@ -15,21 +15,23 @@ img.button {
 input.grid {
   max-height: 55px;
   max-width: 100%;
-  border: powderblue 2px solid;
+  border: rgb(151, 232, 243) 2px solid;
 }
 input.gridLit {
   max-height: 55px;
   max-width: 100%;
-  border: sandybrown 5px solid;
+  border: rgb(245, 206, 77) 5px solid;
 }
 body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  background-color: rgb(145, 240, 235);
 }
 .text-block {
   width: 35%;
-  color: rgb(173, 133, 80);
+  color: rgb(78, 171, 207);
+  background-color: lightcyan;
   font-family: "Courier New", Courier, monospace;
   font-size: 13.2px;
   margin-right: 15px;
@@ -60,17 +62,19 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  border: paleturquoise 5px solid;
+  border: rgb(245, 206, 77) 5px solid;
   width: 30vw;
   justify-items: center;
   align-items: center;
   align-self: center;
+  background-color: lightcyan;
 }
 .grid-item {
   max-width: 80px;
   align-items: center;
   justify-items: center;
 }
+
 input.lil {
   width: 100px;
   margin-left: 20px;
