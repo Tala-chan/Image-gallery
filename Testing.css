@@ -1,29 +1,22 @@
-button {
-  background-color: silver;
-  height: 50px;
-  width: 100px;
-  margin: 10%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
 img.mid {
-  height: 400px;
+  height: 250px;
   align-self: center;
   border: skyblue 10px solid;
 }
 img.button {
-  height: 85px;
+  width: 60px;
+  max-height: 60px;
   margin-left: 59px;
   margin-right: 59px;
-  margin-top: 30px;
+  margin-top: 20px;
   border: none;
 }
 input.grid {
-  max-height: 75px;
+  max-height: 55px;
   max-width: 100%;
 }
 input.gridLit {
-  max-height: 75px;
+  max-height: 55px;
   max-width: 100%;
   border: sandybrown 5px solid;
 }
@@ -52,20 +45,20 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border: paleturquoise 5px solid;
-  width: 50%;
-  max-height: 80px;
+  width: 30%;
+  max-height: 60px;
   justify-items: center;
   align-items: center;
   align-self: center;
 }
 .grid-item {
-  max-width: 100px;
+  max-width: 80px;
   align-items: center;
   justify-items: center;
   border: powderblue 2px solid;
 }
 input.lil {
-  width: 150px;
+  width: 100px;
   margin-left: 20px;
   margin-right: 20px;
 }
