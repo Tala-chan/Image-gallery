@@ -12,6 +12,10 @@ img.button {
   margin-top: 20px;
   border: none;
 }
+img.gif {
+  height: 25vh;
+  border: skyblue 5px solid;
+}
 input.grid {
   max-height: 55px;
   max-width: 100%;
@@ -27,6 +31,7 @@ body {
   justify-content: space-evenly;
   flex-direction: row;
   background-color: rgb(145, 240, 235);
+  height: 100vh;
 }
 .text-block {
   width: 35%;
@@ -37,6 +42,7 @@ body {
   margin-right: 15px;
   margin-left: 15px;
   text-align: center;
+  height: 100vh;
 }
 .main {
   display: flex;
@@ -65,7 +71,6 @@ body {
   border: rgb(245, 206, 77) 5px solid;
   width: 30vw;
   justify-items: center;
-  align-items: center;
   align-self: center;
   background-color: lightcyan;
 }
