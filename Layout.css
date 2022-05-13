@@ -1,5 +1,5 @@
 img.mid {
-  height: 250px;
+  height: 45vh;
   max-width: 28vw;
   justify-self: center;
   border: skyblue 10px solid;
@@ -35,7 +35,7 @@ body {
 }
 .text-block {
   width: 35%;
-  color: rgb(78, 171, 207);
+  color: rgb(3, 133, 184);
   background-color: lightcyan;
   font-family: "Courier New", Courier, monospace;
   font-size: 13.2px;
